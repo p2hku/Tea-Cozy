@@ -3,6 +3,9 @@ body {
   font-size: 22px;
   color: seashell;
   opacity: 0.9;
+  background-color: black;
+  align-items: center;
+  margin: auto;
 }
 
 header {
@@ -42,8 +45,8 @@ a {
 
 .content {
   display: flex;
+  padding-top: 70px;
   justify-content: center;
-  align-content: center;
 }
 
 .missiontext {
@@ -59,4 +62,31 @@ a {
   height: 700px;
   width: 1200px;
   background-image: url(../images/img-mission-background.jpg);
+}
+
+.teaofmonth {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.itemcontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.items img {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+
+.items {
+  display: inline-block;
+  width: 1000px;
+  padding: 20px;
+}
+
+.secondrow {
+  display: flex;
+  justify-content: center;
 }
