@@ -92,6 +92,12 @@ a {
   display: block;
 }
 
+span h2 {
+  text-align: center;
+  position: relative;
+  top: 180px;
+}
+
 .locations {
   display: flex;
   justify-content: center;
@@ -114,9 +120,19 @@ a {
   text-align: center;
 }
 
-.smallcontainer .blackbox {
+.smallcontainer .addressbox {
   width: 300px;
   background-color: black;
   margin: 20px;
   opacity: 1;
+}
+
+.contact {
+  text-align: center;
+}
+
+footer {
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 50px;
 }
